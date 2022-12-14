@@ -20,8 +20,8 @@
 }
 .list {list-style: none;}
 .link {text-decoration: none;}
-.body {
-    font-family: var(--primari-font);
+body {
+    font-family: 'Roboto', sans-serif;;
 }
 .primari-font-logo {
     font-family: var(--primari-font-logo);
