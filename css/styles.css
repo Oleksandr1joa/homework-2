@@ -21,7 +21,7 @@
 .list {list-style: none;}
 .link {text-decoration: none;}
 .body {
-    font-family: var(primari-font);
+    font-family: var(--primari-font);
 }
 .primari-font-logo {
     font-family: var(--primari-font-logo);
@@ -44,12 +44,12 @@
 .color-third {
     color: var(--text-color-third);
 }
-/* .color-fourth {
+.color-fourth {
     color: var(--text-color-fourth);
 }
 .color-footer {
     color: var(--text-color-footer);
-} */
+}
 
 /*============================HEADER===========================*/
 
@@ -106,7 +106,7 @@ letter-spacing: 0.04em;
 }
 /*=====================/COMPONENTS=======================*/
 /*=====================DESCRIPTION========================*/
-.h2 {
+.list-solution {
     font-weight: 700;
     font-size: 20px;
     line-height: 1.2;
@@ -127,7 +127,7 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 
 }
-.h3 {
+.name-on-team {
     font-weight: 700;
 font-size: 20px;
 line-height: 1.2;
@@ -140,10 +140,3 @@ letter-spacing: 0.02em;
 }
 
 /*=====================/DESCRIPTION========================*/
-/*=======================FOOTER===========================*/
-
-<<<<<<< HEAD
-/*========================/FOOTER=========================*/
-=======
-/*========================/FOOTER=========================*/
->>>>>>> c365698a0d323524279358f11ba671b3159db2dc
