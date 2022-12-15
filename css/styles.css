@@ -144,28 +144,41 @@ letter-spacing: 0.02em;
 
 /*======================PORTFOLIO=========================*/
 
+    .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 .modal-btn {
+    font-weight: 700;
     font-family: inherit;
         /* identical to box height, or 150% */
     
     display: flex;
     align-items: center;
     text-align: center;
+    /* display: block; */
     letter-spacing: 0.04em;
     
     /* IRIS */
     
     color: var(--text-color-logo);
 cursor: pointer;
+}
 
-}
-.modal-btn:hover {
-    color:#4D5AE5
-}
+.modal-btn:hover,
 .modal-btn:focus {
-    color:#4D5AE5
+    background-color:#4D5AE5;
+    color:#FFFFFF;
 }
-
-
 
 /*======================/PORTFOLIO=========================*/
