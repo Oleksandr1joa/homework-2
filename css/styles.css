@@ -2,7 +2,7 @@
 --primari-font:'Roboto', sans-serif;
 --primari-font-weight: font-weight: 500;
 --primari-font-size: font-size: 16px;
---primari-font-heyght: line-height: 1.5;
+--primari-font-heyght: line-height: 1.50;
 --primari-font-spacing: letter-spacing: 0.02em;
 --primari-font-logo:'Raleway', sans-serif;
 --primari-font-logo-weight: font-weight: 800;
@@ -72,7 +72,7 @@ text-transform: var(--primari-font-logo-transform);
 .menu-item {
     font-weight: 700;
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 1.50;
     /* identical to box height, or 150% */
     
     letter-spacing: 0.02em;
@@ -110,7 +110,7 @@ letter-spacing: 0.04em;
 .list-solution {
     font-weight: 700;
     font-size: 20px;
-    line-height: 1.2;
+    line-height: 1.20;
     /* identical to box height, or 120% */
     
     letter-spacing: 0.02em;
@@ -131,7 +131,7 @@ text-transform: capitalize;
 .name-on-team {
     font-weight: 700;
 font-size: 20px;
-line-height: 1.2;
+line-height: 1.20;
 /* identical to box height, or 120% */
 
 text-align: center;
@@ -141,3 +141,31 @@ letter-spacing: 0.02em;
 }
 
 /*=====================/DESCRIPTION========================*/
+
+/*======================PORTFOLIO=========================*/
+
+.modal-btn {
+    font-family: inherit;
+        /* identical to box height, or 150% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    
+    /* IRIS */
+    
+    color: var(--text-color-logo);
+cursor: pointer;
+
+}
+.modal-btn:hover {
+    color:#4D5AE5
+}
+.modal-btn:focus {
+    color:#4D5AE5
+}
+
+
+
+/*======================/PORTFOLIO=========================*/
