@@ -54,7 +54,6 @@ body {
 /*============================HEADER===========================*/
 
 .logo-text {
-    
 font-weight: var(--primari-font-logo-weight);
 font-size: var(--primari-font-logo-size);
 line-height: var(--primari-font-logo-height);
@@ -82,7 +81,6 @@ text-transform: var(--primari-font-logo-transform);
 }
 
 .hero {
-font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
 /* or 107% */
@@ -96,7 +94,6 @@ letter-spacing: 0.02em;
 
 .btn {
     font-family: var(--primari-font);
-font-weight: 700;
 font-size: 16px;
 line-height: 1.18;
 /* identical to box height */
@@ -108,7 +105,6 @@ letter-spacing: 0.04em;
 /*=====================/COMPONENTS=======================*/
 /*=====================DESCRIPTION========================*/
 .list-solution {
-    font-weight: 700;
     font-size: 20px;
     line-height: 1.20;
     /* identical to box height, or 120% */
@@ -118,8 +114,7 @@ letter-spacing: 0.04em;
     /* NAVY BLUE */
 }
 .job-illumination {
-    font-weight: 700;
-font-size: 36px;
+    font-size: 36px;
 line-height: 1.11;
 /* identical to box height, or 111% */
 
@@ -129,8 +124,7 @@ text-transform: capitalize;
 
 }
 .name-on-team {
-    font-weight: 700;
-font-size: 20px;
+    font-size: 20px;
 line-height: 1.20;
 /* identical to box height, or 120% */
 
