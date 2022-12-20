@@ -76,8 +76,11 @@ text-transform: var(--primari-font-logo-transform);
     
     letter-spacing: 0.02em;
     cursor: pointer;
-    
     /* NAVY BLUE */
+}
+
+.menu-item:focus {
+        color: var(--text-color-logo);
 }
 
 .hero {
